@@ -1,0 +1,16 @@
+{
+  "name": "saving-ae",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Panel-independent, read-only After Effects CLI feasibility probe",
+  "type": "module",
+  "bin": { "saving": "dist/cli.js" },
+  "files": ["dist", "README.md"],
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "tsc && node scripts/build.mjs",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "saving": "node dist/cli.js"
+  },
+  "devDependencies": { "@types/node": "^22.0.0", "typescript": "^5.9.0" }
+}

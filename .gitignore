@@ -1,0 +1,17 @@
+node_modules/
+dist/
+*.tgz
+.agents/
+.claude/
+.codex/
+__pycache__/
+.test-output/
+.env
+.env.*
+!.env.example
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.trellis/.mini-trellis-manifest.json
